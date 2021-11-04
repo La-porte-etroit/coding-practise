@@ -8,6 +8,6 @@ l = []
 for _ in range(n):
     l.append(list(map(int, sys.stdin.readline().split())))
 
-l.sort(key = lambda x: (x[0], x[1]))
+l.sort(key = lambda x: (x[0], x[1]))  # x좌표, y좌표 순으로 정렬
 for i in l:
     print(i[0], i[1])
